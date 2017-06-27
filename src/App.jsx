@@ -1,29 +1,22 @@
 import React, {Component} from 'react';
+import ChatBar from './ChatBar.jsx';
+import Message from './Message.jsx';
+import MessageList from './MessageList.jsx';
+import Navbar from './NavBar.jsx';
+
+
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div>
-          <div>
-            <div>
-              <nav className="navbar">
-                <div className="navbar-brand">Chatty</div>
-              </nav>
-              <p><span className="message-username">Anon</span> random dhf asd  fas f afs  sf a fs f a sfa f sa f </p>
-            </div>
-          </div>
-         <div className="chatbar">
-            <input type="text" className="chatbar-username" placeholder="Your Name (Optional)"/>
-            <input type="text" className="chatbar-message" placeholder="Type a message and hit ENTER"/>
-         </div>
+        <ChatBar />
+        <Message />
+        <Navbar />
+        <MessageList />
         </div>
-      </div>
-
-
-    )
+    );
   }
 }
-
 export default App;
 
