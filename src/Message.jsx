@@ -9,7 +9,7 @@ class Message extends Component {
           <span className="message-content">{this.props.content}</span>
         </div>
       </div>
-    );
+    );    
   }
 }
 export default Message;
