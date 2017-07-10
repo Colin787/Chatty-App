@@ -43,3 +43,9 @@ npm run lint
 * Webpack
 * [babel-loader](https://github.com/babel/babel-loader)
 * [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+
+!['picture-one'](https://github.com/Colin787/Chatty-App/blob/master/docs/Home.png)
+!['picture-two'](https://github.com/Colin787/Chatty-App/blob/master/docs/ChangeName.png)
+!['picture-two'](https://github.com/Colin787/Chatty-App/blob/master/docs/Message.png)
+
+!
