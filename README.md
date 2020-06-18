@@ -1,7 +1,7 @@
 React Boilerplate
 =====================
 
-A minimal and light dev environment for ReactJS.
+A minimal and light dev environment for ReactJS
 
 ### Usage
 
